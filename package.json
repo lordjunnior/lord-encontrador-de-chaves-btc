@@ -1,0 +1,26 @@
+{
+  "name": "lord-encontrador-de-chaves-btc",
+  "version": "1.0.0",
+  "description": "Mecanismo concorrente em Node.js para varredura e localização de chaves privadas Bitcoin.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/index.js --threads 2 --modo aleatorio"
+  },
+  "keywords": [
+    "bitcoin",
+    "crypto",
+    "secp256k1",
+    "blockchain",
+    "wallet-recovery",
+    "key-finder"
+  ],
+  "author": "Lord Junnior",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
+    "tiny-secp256k1": "^2.2.3",
+    "ecpair": "^2.1.0"
+  }
+}
